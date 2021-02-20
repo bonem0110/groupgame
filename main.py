@@ -14,13 +14,16 @@ print ("""Hello, welcome to our arcade! Which of the following games would you l
     5.Exit/Quit
 
     """)
+
 ans=int(input("What would you like to do? ")) 
 if ans==1: 
   print("\n Python Quiz it is!")
+  pychallenge.py_challenge()
   
 elif ans==2:
   print("\n Text Adventure it is!") 
-  import typing.py
+  typing.tyingClub()
+  
 elif ans==3:
   print("\nGuess my Color it is!") 
   from random import randint
@@ -40,7 +43,7 @@ elif ans==3:
   print("Correct!  The color is " + colors[generator] + ".")
 
 elif ans==4:
-  game()
+  tictactoe.game()
 
 elif ans==5:
   print("\n Goodbye!") 
